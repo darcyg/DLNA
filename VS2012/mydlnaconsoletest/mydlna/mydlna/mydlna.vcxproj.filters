@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DLNACore\avcore1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\avcore2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\avcore3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\avcore4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJConnector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJControlPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\djdata1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\djdata2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJDesc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJDescPriv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJDeviceImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJFrontEnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJMediaStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJMediaStoreImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJTaskGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJTasks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DJUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNACore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNACoreImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNACoreOp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNACoreOpImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNALibrary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNALibraryImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNAObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\DLNAObjectImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNACore\icondata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mydlna.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DLNATest\DLNADelegation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DLNACore\avcore1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\avcore2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\avcore3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\avcore4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJConnector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJControlPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\djdata1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\djdata2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJDesc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJDescPriv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJDeviceImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJFrontEnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJMediaStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJMediaStoreImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJTaskGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJTasks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DJUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNACore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNACoreImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNACoreOp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNACoreOpImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNALibrary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNALibraryImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNAObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNACore\DLNAObjectImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNATest\DLNAGolbal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DLNATest\DLNADelegation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

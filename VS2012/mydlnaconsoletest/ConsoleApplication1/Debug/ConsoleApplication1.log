@@ -1,0 +1,112 @@
+﻿生成启动时间为 2012-12-13 10:49。
+     1>项目“F:\LevoApp\mydlna1\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         G:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp DLNACenter.cpp DLNADelegation.cpp DLNADeviceController.cpp DLNAImageControlPage.cpp DLNAOptionController.cpp DLNARenderList.cpp DLNAServerList.cpp DLNAShareApi.cpp DLNAThumbImg.cpp DLNAVideoControlPage.cpp MyScrollView.cpp
+         MyScrollView.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\myscrollview.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\myscrollview.cpp(9): warning C4627: “#import "MyScrollView.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\myscrollview.cpp(121): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNAVideoControlPage.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnavideocontrolpage.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnavideocontrolpage.cpp(9): warning C4627: “#import "DLNAVideoControlPage.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnavideocontrolpage.cpp(10): warning C4627: “#import "DLNADeviceController.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnavideocontrolpage.cpp(540): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNAThumbImg.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnathumbimg.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnathumbimg.cpp(9): warning C4627: “#import "DLNAThumbImg.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnathumbimg.cpp(10): warning C4627: “#import "DLNADelegation.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnathumbimg.cpp(60): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNAShareApi.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp(9): warning C4627: “#import "DLNAShareApi.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp(10): warning C4627: “#import "DLNACenter.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp(11): warning C4627: “#import "DLNADelegation.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp(12): warning C4627: “#import "DLNAGolbal.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp(13): warning C4627: “#import <UIKit/UIKit.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnashareapi.cpp(84): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNAServerList.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaserverlist.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaserverlist.cpp(9): warning C4627: “#import "DLNAServerList.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaserverlist.cpp(10): warning C4627: “#import "DLNACenter.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaserverlist.cpp(715): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNARenderList.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnarenderlist.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnarenderlist.cpp(9): warning C4627: “#import "DLNARenderList.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnarenderlist.cpp(10): warning C4627: “#import "DLNACenter.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnarenderlist.cpp(308): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNAOptionController.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaoptioncontroller.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaoptioncontroller.cpp(9): warning C4627: “#import "DLNAOptionController.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaoptioncontroller.cpp(10): warning C4627: “#import "DLNACenter.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaoptioncontroller.cpp(11): warning C4627: “#import "DLNAGolbal.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaoptioncontroller.cpp(275): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNAImageControlPage.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaimagecontrolpage.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaimagecontrolpage.cpp(9): warning C4627: “#import "DLNAImageControlPage.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaimagecontrolpage.cpp(10): warning C4627: “#import "DLNADeviceController.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnaimagecontrolpage.cpp(389): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNADeviceController.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(9): warning C4627: “#import "DLNADeviceController.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(10): warning C4627: “#import "DLNACenter.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(11): warning C4627: “#import <MediaPlayer/MediaPlayer.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(12): warning C4627: “#import "DLNAVideoControlPage.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(13): warning C4627: “#import "DLNAImageControlPage.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(14): warning C4627: “#import "MyScrollView.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadevicecontroller.cpp(897): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNADelegation.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadelegation.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadelegation.cpp(9): warning C4627: “#include "DLNADelegation.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadelegation.cpp(10): warning C4627: “#import <CoreLocation/CoreLocation.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnadelegation.cpp(1268): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         DLNACenter.cpp
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(9): warning C4627: “#import "DLNACenter.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(10): warning C4627: “#import "DLNADelegation.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(11): warning C4627: “#import "DLNARenderList.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(12): warning C4627: “#import "DLNAServerList.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(13): warning C4627: “#import "DLNADeviceController.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(14): warning C4627: “#import "DLNAOptionController.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>f:\levoapp\mydlna1\consoleapplication1\dlnacenter.cpp(863): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         ConsoleApplication1.cpp
+         正在生成代码...
+     1>已完成生成项目“F:\LevoApp\mydlna1\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.40

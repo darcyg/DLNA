@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5029643B-E6CA-4CF4-908B-A33CD467FB00}</ProjectGuid>
+    <RootNamespace>mydlna</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\Source\Core;.\Source\DLNACore;.\Source\DLNATest;.\Source\System\Win32;.\Source\System;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>neptune.lib;Rpcrt4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DLNACore\avcore1.cpp" />
+    <ClCompile Include="Source\DLNACore\avcore2.cpp" />
+    <ClCompile Include="Source\DLNACore\avcore3.cpp" />
+    <ClCompile Include="Source\DLNACore\avcore4.cpp" />
+    <ClCompile Include="Source\DLNACore\DJConnector.cpp" />
+    <ClCompile Include="Source\DLNACore\DJControlPoint.cpp" />
+    <ClCompile Include="Source\DLNACore\djdata1.cpp" />
+    <ClCompile Include="Source\DLNACore\djdata2.cpp" />
+    <ClCompile Include="Source\DLNACore\DJDesc.cpp" />
+    <ClCompile Include="Source\DLNACore\DJDescPriv.cpp" />
+    <ClCompile Include="Source\DLNACore\DJDeviceImpl.cpp" />
+    <ClCompile Include="Source\DLNACore\DJFrontEnd.cpp" />
+    <ClCompile Include="Source\DLNACore\DJMediaStore.cpp" />
+    <ClCompile Include="Source\DLNACore\DJMediaStoreImpl.cpp" />
+    <ClCompile Include="Source\DLNACore\DJTaskGroup.cpp" />
+    <ClCompile Include="Source\DLNACore\DJTasks.cpp" />
+    <ClCompile Include="Source\DLNACore\DJUtils.cpp" />
+    <ClCompile Include="Source\DLNACore\dllmain.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNACore.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNACoreImpl.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNACoreOp.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNACoreOpImpl.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNALibrary.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNALibraryImpl.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNAObject.cpp" />
+    <ClCompile Include="Source\DLNACore\DLNAObjectImpl.cpp" />
+    <ClCompile Include="Source\DLNACore\icondata.cpp" />
+    <ClCompile Include="mydlna.cpp" />
+    <ClCompile Include="Source\DLNATest\DLNADelegation.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DLNACore\avcore1.h" />
+    <ClInclude Include="Source\DLNACore\avcore2.h" />
+    <ClInclude Include="Source\DLNACore\avcore3.h" />
+    <ClInclude Include="Source\DLNACore\avcore4.h" />
+    <ClInclude Include="Source\DLNACore\DJConnector.h" />
+    <ClInclude Include="Source\DLNACore\DJControlPoint.h" />
+    <ClInclude Include="Source\DLNACore\djdata1.h" />
+    <ClInclude Include="Source\DLNACore\djdata2.h" />
+    <ClInclude Include="Source\DLNACore\DJDesc.h" />
+    <ClInclude Include="Source\DLNACore\DJDescPriv.h" />
+    <ClInclude Include="Source\DLNACore\DJDeviceImpl.h" />
+    <ClInclude Include="Source\DLNACore\DJFrontEnd.h" />
+    <ClInclude Include="Source\DLNACore\DJMediaStore.h" />
+    <ClInclude Include="Source\DLNACore\DJMediaStoreImpl.h" />
+    <ClInclude Include="Source\DLNACore\DJTaskGroup.h" />
+    <ClInclude Include="Source\DLNACore\DJTasks.h" />
+    <ClInclude Include="Source\DLNACore\DJUtils.h" />
+    <ClInclude Include="Source\DLNACore\DLNACore.h" />
+    <ClInclude Include="Source\DLNACore\DLNACoreImpl.h" />
+    <ClInclude Include="Source\DLNACore\DLNACoreOp.h" />
+    <ClInclude Include="Source\DLNACore\DLNACoreOpImpl.h" />
+    <ClInclude Include="Source\DLNACore\DLNALibrary.h" />
+    <ClInclude Include="Source\DLNACore\DLNALibraryImpl.h" />
+    <ClInclude Include="Source\DLNACore\DLNAObject.h" />
+    <ClInclude Include="Source\DLNACore\DLNAObjectImpl.h" />
+    <ClInclude Include="Source\DLNATest\DLNADelegation.h" />
+    <ClInclude Include="Source\DLNATest\DLNAGolbal.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
